@@ -61,7 +61,6 @@ nav {
 .navbar-right {
     display: flex;
     margin-left: auto;
-    text-align: right;
     width: 200px;
 }
 .nav-item {
@@ -338,3 +337,201 @@ nav {
 
 
 
+
+    @media only screen and (max-width:850px) {
+    
+      body {
+        width: 100%;
+      }
+      h1 {
+        text-align: center;
+        font-weight: 900;
+        font-size: 35px;
+    }
+  
+  
+      /* Navigation */
+  
+      .navbar-brand {
+          margin-left: 20px;
+      }
+      .nav-item {
+        display: flex;
+      }
+  
+  
+      /* Jumbotron */
+  
+      .jumbotron {
+        padding-left: 10px;
+        padding-top: 300px;
+        min-width: 450px;
+      }
+
+
+      /* Grid Sytem & Cards */
+
+      .caseStudies {
+        margin-top: 50px;
+      }
+      .allCards {
+        margin-top: 50px;
+    }
+    .card {
+        width: 400px;
+        min-width: 300px;
+        margin: auto;
+    }
+    .card-img-top {
+      height: 225px;
+  }
+
+  
+  /* Blockquote */
+
+.blockContainer {
+  margin-top: 0px;
+}
+.blockquote {
+  max-width: 350px;
+  margin: auto;
+}
+.mb-0 {
+  font-size: 30px;
+}
+.blockquote-footer {
+  font-size: 30px;
+  margin-top: 50px;
+}
+
+
+/* Table */
+
+.background3 {
+  margin-top: 50px;
+  width: 100%;
+  height: 550px;
+  color: white;
+}
+.skills {
+ padding-top: 50px;
+ padding-bottom: 50px;
+}
+.table {
+  width: 300px;
+  margin: auto;
+  color: white;
+}
+.hide {
+  display: none;
+}
+.col1 {
+  width: 350px;
+}
+.col2 {
+  display: none;
+}
+.col3 {
+  display: none;
+}
+.col4 {
+  display: none;
+}
+.table th {
+border: none;
+}
+.table td {
+border: none;
+}
+
+
+/* Download Resume */
+
+.downloadResume {
+  padding-top: 50px;
+  }
+  .download .btn {
+    margin-top: 30px;
+  }
+
+
+/* Contact Form */
+
+.background4 {
+  margin-top: 50px;
+  width: 100%;
+}
+.contact {
+  padding-top: 30px;
+}
+.fullForm {
+  justify-content: center;
+  text-align: center;
+  display: block;
+  margin-top: 50px;
+  width: 100%;
+}
+.topFields {
+  justify-content: center;
+  text-align: left;
+  display: grid;
+}
+.fullName {
+  margin-bottom: 30px;
+  margin-right: 0px;
+}
+.fields {
+  margin-top: 5px;
+  width: 300px;
+  height: 40px;
+  border-radius: 3px;
+}
+.subjectName {
+  margin-bottom: 30px;
+}
+.messageName {
+  margin-bottom: 30px;
+}
+.subject2 {
+  height: 40px;
+}
+.message2 {
+  height: 100px;
+}
+.fields2 {
+  margin-top: 5px;
+  width: 300px;
+  border-radius: 3px;
+}
+
+
+/* Footer */
+  
+.footer {
+  width: 100%;
+  height: 100%;
+}  
+.footerLinks {
+  display: block;
+  margin: 50px;
+}
+.copyright {
+  text-align: center;
+  width: 100%;
+}
+.rightLinks {
+  margin-top: 50px;
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+}
+.rightLinks ul {
+    display: block;
+}
+.rightLinks li {
+  margin-left: -50px;
+  padding: 10px;
+}
+
+    }
+  
