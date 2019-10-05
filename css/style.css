@@ -109,6 +109,9 @@ nav {
     min-width: 300px;
     margin: auto;
 }
+.card1 {
+  margin-right: -10px;
+}
 .col {
     display: flex;
     padding-bottom: 50px;
@@ -188,6 +191,12 @@ nav {
 }
 .col4 {
     width: 190px;
+}
+.table th {
+  border: none;
+}
+.table td {
+  border: none;
 }
 
 
